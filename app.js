@@ -15,7 +15,7 @@ const express 	     = require("express"),
 const campgroundRoutes = require("./routes/campgrounds"),
 	  commentRoutes    = require("./routes/comments"),
 	  authRoutes       = require("./routes/auth");
-	  
+
 // mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.connect("mongodb+srv://yelpcamper:password123@c@cluster0.fgusb.mongodb.net/yelp_camp?retryWrites=true&w=majority", {
 	useNewUrlParser: true, useUnifiedTopology: true
@@ -177,6 +177,6 @@ app.use("/campgrounds/:id/comments", commentRoutes);
 // 	}
 // }
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
 	console.log("Yelp Camp started listening on port 3000");
 });
