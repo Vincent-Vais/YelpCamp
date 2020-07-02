@@ -1,0 +1,46 @@
+.thumbnail img{
+	width: 100%;
+	object-fit: conver;
+}
+
+.main-thumb img {
+	height: 67%;
+}
+
+#fixThumbnail {
+	padding: 0;
+}
+
+.thumbnail .caption-full {
+	padding: 9px;
+}
+
+#delete-form{
+	display: inline;
+}
+
+.main-thumb{
+	height: 38vh;
+}
+
+.caption-full h4{
+	display: inline-block;
+}
+
+.authorize {
+	width:30%; 
+	margin: 20vh auto; 
+}
+
+.authorize h1{
+	text-align: center;
+	margin-bottom: 5vh
+}
+
+.authorize input[type=submit]{
+	width: 100%;
+}
+
+.authorize button{
+	width: 100%;
+}
