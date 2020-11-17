@@ -1,2 +1,3 @@
 # YelpCamp
-Clone of Yelp for publishing crowd-sourced reviews for campgrounds.
+
+## Stack: EJS, Node, Express, MongoDB
